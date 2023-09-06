@@ -1,9 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import './estilo.css';
 
 const Counter = (props) => {
     return(
-        <div>
+        <div className='container'>
             <h1>Contador Redux</h1>
             <p>Contagem: {props.count}</p>
             <button onClick={props.incremento}>Incrementar</button>

@@ -1,0 +1,13 @@
+*{
+    background-color: beige;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    color: rgb(175, 98, 5);
+}
